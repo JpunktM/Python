@@ -7,9 +7,9 @@ import json
 chars = string.ascii_letters + string.digits + "!@#§$%&*"
 random.seed = (os.urandom(1024))
 
-url = 'https://tq2afbm1.apps.lair.io/rbaccess/home/settings/includes/post_log.php'
-data_username = 'gs_email'
-data_password = 'gs_password'
+url = 'POST URL'
+data_username = 'POST DATA USERNAME'
+data_password = 'POST DATA PASSWORD'
 
 first_names = json.loads(open('first_names.json').read())
 last_names = json.loads(open('last_names.json').read())
